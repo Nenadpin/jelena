@@ -9,8 +9,7 @@ const Footer = () => {
     <div className="footer">
       <Social />
       <div>
-        <p>
-          <span>Copyright © 2023 nenadpin </span>
+        <div>
           <span
             className="footer-link"
             onClick={() => {
@@ -47,7 +46,8 @@ const Footer = () => {
           >
             Terms and Conditions
           </span>
-        </p>
+        </div>
+        <p>Copyright © 2023 nenadpin </p>
       </div>
     </div>
   );
